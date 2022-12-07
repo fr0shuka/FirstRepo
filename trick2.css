@@ -1,0 +1,13 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1566762492198-343d9445624c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    margin-right: auto;
+    margin-right: auto;
+    background-color: rgb(174, 255, 127);
+    background-blend-mode: screen ;
+}
+
+.tr{
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);    height: 60%;
+    width: 60%;
+    background-color: rgb(174, 255, 127);
+}

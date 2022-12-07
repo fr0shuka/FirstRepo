@@ -1,0 +1,75 @@
+<html>
+    <head>
+    <h1>Javasctipt Async/Await</h1>
+    </head>
+<body>
+    <!-- <script>
+        var value=58
+        
+        function my_function(){
+            var value =100
+            alert("Value: "+value)
+            alert("This value: " + this.value)
+        }
+        my_function()
+    </script> -->
+
+    <!-- isto é um script que abre janela de alerta ^ -->
+
+    <!-- <script>
+        const random ={
+            name:"John",
+            video:["Javascript", "this", "keyword"],
+            info(){
+                this.video.forEach(function(tag){
+                    console.log(this.name, tag)
+                },this)
+            }
+        }
+       random.info()
+    </script> -->
+
+
+    <script>
+        let result = function(score){
+            return new Promise(function(resolve,reject){
+                console.log("Calculation results...")
+                if(score>50)
+                    resolve("HAPPY! PASSED")
+                else
+                    reject("FAILED")
+            })
+        }
+
+        let grade = function(responde){
+            return new Promise(function(resolve, reject){
+                console.log("Calculating your grade...")
+                resolve("Your grade is A " + response)
+            })
+        }
+
+        // result(80).then(response=>{
+        //     console.log("Results received")
+        //     return grade(response)
+        // }).then(finalgrade=>{
+        //     console.log(finalgrade)
+        // }).catch(err=>{
+        //     console.log(err)
+        // })
+
+
+        async function calculateResults(){
+            try{const response = await result(80)
+            console.log("Results received")
+            const finalgrade=await grade(response)
+            console.log(finalgrade)
+        }catch(err){
+            console.log(err)
+        }}
+        calculateResults()
+    </script>
+    
+</body>    
+    
+    
+</html>

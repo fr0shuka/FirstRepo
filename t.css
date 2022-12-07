@@ -1,0 +1,17 @@
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    width:200px;
+    height:200px;
+    background:#EF64E9;
+    transition-duration: 2s;
+    transition-property: background;
+    transition-delay: 2s;
+  
+}
+  
+  .box:hover{
+    background: #40ED28;
+    transform: rotate(45deg);
+  }

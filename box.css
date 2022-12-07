@@ -1,0 +1,29 @@
+
+.box{
+    align-content: center;
+    border: 5px;
+    border-color: black;
+    border-style: dashed;
+    padding: 10px;
+    background-color: aquamarine;
+    text-align: center;
+    
+}
+.box2{
+    align-content: center;
+    border: 5px;
+    border-color: rgb(140, 185, 252);
+    border-style:inset;
+    padding: 10px;
+    background-color: aquamarine;
+    text-align: center;
+    
+}
+body {
+    background-color: #ffffff;
+    }
+
+.h10{
+    font-style: italic;
+    text-align: end;
+}
